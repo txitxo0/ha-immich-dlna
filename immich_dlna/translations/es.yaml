@@ -1,0 +1,24 @@
+title: "Immich DLNA"
+description: "Empaquetado experimental de Immich-DLNA para Home Assistant"
+options:
+  immich_url:
+    name: "URL de Immich"
+    description: "URL base de Immich (por ejemplo: https://immich.example.com o https://immich.example.com/api)"
+  immich_api_token:
+    name: "API token"
+    description: "Token de solo lectura para Immich (nunca lo muestre en los logs)"
+  verify_ssl:
+    name: "Verificar SSL"
+    description: "Verificar certificado TLS del servidor Immich"
+  friendly_name:
+    name: "Nombre amistoso"
+    description: "Nombre mostrado en clientes DLNA"
+  base_url:
+    name: "Base URL"
+    description: "URL pública a anunciar a los clientes. Si está vacío se intentará autodetectar"
+  server_uuid:
+    name: "UUID del servidor"
+    description: "UUID a anunciar. Si está vacío se generará uno estable y se guardará en /data/server_uuid"
+  log_level:
+    name: "Nivel de log"
+    description: "Nivel de logs del servidor (DEBUG, INFO, WARNING, ERROR)"

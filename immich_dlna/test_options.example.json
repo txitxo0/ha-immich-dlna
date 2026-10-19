@@ -1,0 +1,9 @@
+{
+  "immich_url": "http://192.168.1.10:2283",
+  "immich_api_token": "replace-with-your-immich-api-key",
+  "verify_ssl": true,
+  "friendly_name": "Immich DLNA",
+  "base_url": "http://192.168.1.20:8200",
+  "server_uuid": "",
+  "log_level": "INFO"
+}

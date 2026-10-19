@@ -1,0 +1,5 @@
+- name: Immich DLNA (local)
+  url: https://github.com/txitxo0/ha-immich-dlna
+  slug: ha_immich_dlna
+  description: "Local packaging of Immich DLNA for Home Assistant app / addon testing"
+  maintener: "txitxo0"
